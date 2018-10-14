@@ -1,3 +1,6 @@
+import updater,organizer
+
+
 while True:
   inp = input()
   if not inp = 'show':
@@ -5,4 +8,4 @@ while True:
   else:
     indshow = organizer(ind)
     for i in indshow:
-      print(i)
+      print(string(indshow[i]) + '---' + i)
